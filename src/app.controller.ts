@@ -16,4 +16,9 @@ export class AppController {
     return "What are you doing";
   }
 
+     @Get('api/sereiously')
+   get(): string {
+    return "What are you doing Seriously";
+  }
+
 }
